@@ -15,7 +15,7 @@ def test_01():
             [
                 "bash",
                 "-c",
-                "source run.sh",
+                "run.sh",
             ],
             check=True,
         )
