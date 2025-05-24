@@ -13,8 +13,7 @@ def test_01():
     try:
         subprocess.run(
             [
-                ". ",
-                "run.sh",
+                "source run.sh",
             ],
             check=True,
         )
