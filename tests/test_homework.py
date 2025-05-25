@@ -13,9 +13,7 @@ def test_01():
     try:
         subprocess.run(
             [
-                "bash",
-                "-c",
-                "run.sh",
+                "./run.sh",
             ],
             check=True,
         )
